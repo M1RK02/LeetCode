@@ -7,12 +7,12 @@
 # @lc code=start
 class Solution:
     def isValid(self, s: str) -> bool:
-        if (len(s)%2 != 0):
+        if (len(s) % 2 != 0):
             return False
-            
+
         stack = []
-        brackets = {"}":"{", ")":"(", "]":"["}
-            
+        brackets = {"}": "{", ")": "(", "]": "["}
+
         for char in s:
             if len(stack) == 0 or char not in brackets:
                 stack.append(char)

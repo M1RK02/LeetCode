@@ -7,7 +7,7 @@
 # @lc code=start
 class Solution:
     def intToRoman(self, num: int) -> str:
-        memo = {1:['I','V'], 2:['X','L'], 3:['C','D'], 4:['M']}
+        memo = {1: ['I', 'V'], 2: ['X', 'L'], 3: ['C', 'D'], 4: ['M']}
         numero = [int(i) for i in str(num)]
         unita = len(str(num))
         result = ''

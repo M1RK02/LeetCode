@@ -9,7 +9,7 @@ class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         result = set()
         nums.sort()
-        
+
         for i, val in enumerate(nums):
             if i > 0 and val == nums[i - 1]:
                 continue
@@ -21,10 +21,9 @@ class Solution:
                 elif threeSum < 0:
                     left += 1
                 else:
-                    result.add((val,nums[left],nums[right]))
+                    result.add((val, nums[left], nums[right]))
                     left += 1
                     right -= 1
 
         return result
 # @lc code=end
-

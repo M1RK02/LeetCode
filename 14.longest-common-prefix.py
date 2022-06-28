@@ -16,7 +16,6 @@ class Solution:
                 prefix = prefix[:-1]
                 if len(prefix) == 0:
                     return ""
-        
+
         return prefix
 # @lc code=end
-
