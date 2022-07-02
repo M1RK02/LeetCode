@@ -13,8 +13,8 @@ class Solution:
         right = len(height)-1
 
         while left != right:
-            max = min(height[left], height[right]) * (right-left)
-            result = max(result, max)
+            massimo = min(height[left], height[right]) * (right-left)
+            result = max(result, massimo)
             if height[left] < height[right]:
                 left += 1
             else:
