@@ -12,4 +12,4 @@ If you have contributions, need support, have suggestions, or just want to get i
 ## License
 
 This software is licensed under the terms of the MIT license.
-See [LICENSE.txt](LICENSE.txt) for more details.
+See [LICENSE](LICENSE) for more details.
